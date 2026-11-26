@@ -1,0 +1,15 @@
+services:
+  flagledger:
+    build: ./sidecar
+    container_name: flagledger
+    ports:
+      - "5000:5000"
+    environment:
+      - FLAGSMITH_WEBHOOK_SECRET=flagledger-secret-2026
+      - DB_PATH=/data/flagledger.db
+    volumes:
+      - flagledger_data:/data
+    restart: unless-stopped
+
+volumes:
+  flagledger_data:
