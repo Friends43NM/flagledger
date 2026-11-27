@@ -52,14 +52,6 @@ Feature flags allow engineering teams to alter production behavior in millisecon
 
 
 
-
-
-
-
-
-
-
-
 ## Key Features
 
 - **Zero-Touch Docker Integration:** Drops straight onto Flagsmith's official `docker-compose.yml` using `docker-compose.override.yml`.
