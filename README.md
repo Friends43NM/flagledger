@@ -48,9 +48,9 @@ Feature flags allow engineering teams to alter production behavior in millisecon
 +------------------------------------------+
 |  Live Dashboard & 1-Click Audit Pack .md |
 +------------------------------------------+
+```
+
 ---
-
-
 
 ## Key Features
 
